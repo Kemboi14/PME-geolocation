@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@capacitor/geolocation": "^7.1.5",
+    "@capacitor/preferences": "^7.0.2",
+    "@expo/vector-icons": "^15.0.3",
+    "expo-linear-gradient": "^15.0.7"
+  }
+}
