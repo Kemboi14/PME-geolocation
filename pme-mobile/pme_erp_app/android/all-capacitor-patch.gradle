@@ -1,0 +1,36 @@
+// This patch will update the Java version for all Capacitor plugins
+project.afterEvaluate {
+    if (project.name.startsWith('capacitor-') || project.name == 'capacitor-android') {
+        try {
+            // Apply Java compatibility
+            project.android {
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_17
+                    targetCompatibility JavaVersion.VERSION_17
+                }
+            }
+        } catch (Exception e) {
+            // Skip if android extension is not available
+        }
+        
+        // Apply Java compatibility to all Java compilation tasks
+        project.tasks.withType(JavaCompile).configureEach {
+            sourceCompatibility = JavaVersion.VERSION_17.toString()
+            targetCompatibility = JavaVersion.VERSION_17.toString()
+            options.encoding = 'UTF-8'
+        }
+        
+        // Apply Kotlin JVM target if Kotlin plugin is applied
+        try {
+            project.plugins.withId('org.jetbrains.kotlin.android') {
+                project.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+                    kotlinOptions {
+                        jvmTarget = '17'
+                    }
+                }
+            }
+        } catch (Exception e) {
+            // Skip if Kotlin plugin is not available
+        }
+    }
+}

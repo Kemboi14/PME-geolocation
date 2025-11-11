@@ -1,0 +1,14 @@
+// This patch will update the Java version for the capacitor-geolocation plugin
+project.afterEvaluate {
+    if (project.name == 'capacitor-geolocation') {
+        android {
+            compileOptions {
+                sourceCompatibility JavaVersion.VERSION_17
+                targetCompatibility JavaVersion.VERSION_17
+            }
+        }
+        kotlin {
+            jvmToolchain(17)
+        }
+    }
+}

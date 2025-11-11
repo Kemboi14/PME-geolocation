@@ -1,0 +1,39 @@
+// Force Java 17 toolchain for the geolocation plugin
+project.afterEvaluate {
+    if (project.name == 'capacitor-geolocation') {
+        // Configure Java toolchain
+        java {
+            toolchain {
+                languageVersion = JavaLanguageVersion.of(17)
+            }
+        }
+        
+        // Explicitly set Java compatibility
+        tasks.withType(JavaCompile).configureEach {
+            sourceCompatibility = '17'
+            targetCompatibility = '17'
+            options.encoding = 'UTF-8'
+        }
+        
+        // Update Kotlin if present
+        try {
+            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+                kotlinOptions.jvmTarget = '17'
+            }
+        } catch (Exception e) {
+            // Kotlin not configured, ignore
+        }
+    }
+}
+
+// Apply the fix early in the configuration phase
+project.afterEvaluate {
+    if (project.name == 'capacitor-geolocation') {
+        // Force toolchain resolution
+        tasks.matching { it.name.startsWith('compile') && it.name.endsWith('JavaWithJavac') }.configureEach {
+            javaCompiler = javaToolchains.compilerFor {
+                languageVersion = JavaLanguageVersion.of(17)
+            }
+        }
+    }
+}

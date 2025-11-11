@@ -1,0 +1,46 @@
+buildscript {
+    ext {
+        kotlin_version = "2.0.0"
+        agp_version = "8.3.0"
+        google_services_version = "4.4.1"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.google.gms:google-services:$google_services_version"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Configure toolchain for all projects
+allprojects {
+    plugins.withType(JavaPlugin).configureEach {
+        java {
+            toolchain {
+                languageVersion = JavaLanguageVersion.of(17)
+            }
+        }
+    }
+}
+
+// Apply patches for Java version compatibility to all Capacitor plugins
+subprojects { subproject ->
+    if (subproject.name.startsWith('capacitor-') || subproject.name == 'capacitor-android') {
+        apply from: "${rootProject.projectDir}/all-capacitor-patch.gradle"
+    }
+    
+    // Apply specific geolocation fixes
+    if (subproject.name == 'capacitor-geolocation') {
+        apply from: "${rootProject.projectDir}/geolocation-fix.gradle"
+        apply from: "${rootProject.projectDir}/geolocation-toolchain-fix.gradle"
+    }
+}

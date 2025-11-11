@@ -1,0 +1,54 @@
+com.pme.erp.app-jetified-lifecycle-livedata-core-ktx-2.7.0-0 /home/nicksonkipkogei/.gradle/caches/transforms-3/14830a7dcbae3026eaba95e0413ba8a2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.pme.erp.app-browser-1.8.0-1 /home/nicksonkipkogei/.gradle/caches/transforms-3/14e418cf62bb96b27b401437ffa67d51/transformed/browser-1.8.0/res
+com.pme.erp.app-transition-1.5.0-2 /home/nicksonkipkogei/.gradle/caches/transforms-3/1724b831c1c09210b9c06b4f97ec8f63/transformed/transition-1.5.0/res
+com.pme.erp.app-jetified-startup-runtime-1.1.1-3 /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/res
+com.pme.erp.app-jetified-lifecycle-viewmodel-ktx-2.7.0-4 /home/nicksonkipkogei/.gradle/caches/transforms-3/23147382353d9e78e55afbc65bb6f14d/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/res
+com.pme.erp.app-recyclerview-1.1.0-5 /home/nicksonkipkogei/.gradle/caches/transforms-3/2e9e28ccdc89a75578fecc9016e7c93d/transformed/recyclerview-1.1.0/res
+com.pme.erp.app-webkit-1.12.1-6 /home/nicksonkipkogei/.gradle/caches/transforms-3/33a61abf22db00ccb694f81e7763948d/transformed/webkit-1.12.1/res
+com.pme.erp.app-jetified-annotation-experimental-1.4.1-7 /home/nicksonkipkogei/.gradle/caches/transforms-3/3d46182e5cefefd68364617b2f2c8757/transformed/jetified-annotation-experimental-1.4.1/res
+com.pme.erp.app-jetified-viewpager2-1.0.0-8 /home/nicksonkipkogei/.gradle/caches/transforms-3/3f7692b1073905e810bbe09531d17be6/transformed/jetified-viewpager2-1.0.0/res
+com.pme.erp.app-lifecycle-viewmodel-2.7.0-9 /home/nicksonkipkogei/.gradle/caches/transforms-3/40fe95b4840343e06892b9c0c0573e24/transformed/lifecycle-viewmodel-2.7.0/res
+com.pme.erp.app-fragment-1.8.4-10 /home/nicksonkipkogei/.gradle/caches/transforms-3/416d9e7c20a0464d3193b09b315dd5fc/transformed/fragment-1.8.4/res
+com.pme.erp.app-jetified-emoji2-views-helper-1.3.0-11 /home/nicksonkipkogei/.gradle/caches/transforms-3/435dfe0f927e002ddce0cb0295113ab4/transformed/jetified-emoji2-views-helper-1.3.0/res
+com.pme.erp.app-lifecycle-livedata-2.7.0-12 /home/nicksonkipkogei/.gradle/caches/transforms-3/5da969a9b3f1c75256610c2c731d11c4/transformed/lifecycle-livedata-2.7.0/res
+com.pme.erp.app-jetified-lifecycle-process-2.7.0-13 /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/res
+com.pme.erp.app-jetified-play-services-basement-18.4.0-14 /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/res
+com.pme.erp.app-core-1.15.0-15 /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/res
+com.pme.erp.app-core-runtime-2.2.0-16 /home/nicksonkipkogei/.gradle/caches/transforms-3/95206746303a3fae8ff2ed9128c5b8dc/transformed/core-runtime-2.2.0/res
+com.pme.erp.app-jetified-savedstate-ktx-1.2.1-17 /home/nicksonkipkogei/.gradle/caches/transforms-3/98e590c14be1c50285edd4c7c15ce0c3/transformed/jetified-savedstate-ktx-1.2.1/res
+com.pme.erp.app-material-1.12.0-18 /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/res
+com.pme.erp.app-jetified-emoji2-1.3.0-19 /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/res
+com.pme.erp.app-constraintlayout-2.1.4-20 /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/res
+com.pme.erp.app-jetified-savedstate-1.2.1-21 /home/nicksonkipkogei/.gradle/caches/transforms-3/bb6699e76f644237572f88daa7f83fe0/transformed/jetified-savedstate-1.2.1/res
+com.pme.erp.app-jetified-play-services-base-18.5.0-22 /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/res
+com.pme.erp.app-lifecycle-runtime-2.7.0-23 /home/nicksonkipkogei/.gradle/caches/transforms-3/bb967143300df7baeca0dae2362c5aec/transformed/lifecycle-runtime-2.7.0/res
+com.pme.erp.app-jetified-appcompat-resources-1.7.0-24 /home/nicksonkipkogei/.gradle/caches/transforms-3/bf28b6c8fefe281c0e2ec5848d15e913/transformed/jetified-appcompat-resources-1.7.0/res
+com.pme.erp.app-coordinatorlayout-1.2.0-25 /home/nicksonkipkogei/.gradle/caches/transforms-3/cef7bd7f224f62fc76282d790b7b3858/transformed/coordinatorlayout-1.2.0/res
+com.pme.erp.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-26 /home/nicksonkipkogei/.gradle/caches/transforms-3/d1e6bda37ac60dd6610ddf913e43aec6/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.pme.erp.app-jetified-profileinstaller-1.3.1-27 /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/res
+com.pme.erp.app-drawerlayout-1.1.1-28 /home/nicksonkipkogei/.gradle/caches/transforms-3/da322a691fd61b62c4c2296055c2766f/transformed/drawerlayout-1.1.1/res
+com.pme.erp.app-cardview-1.0.0-29 /home/nicksonkipkogei/.gradle/caches/transforms-3/dd0de0845d40f29cf4592d449a594acb/transformed/cardview-1.0.0/res
+com.pme.erp.app-appcompat-1.7.0-30 /home/nicksonkipkogei/.gradle/caches/transforms-3/df2f96cd8526a9ca9f4274b5ca9aad03/transformed/appcompat-1.7.0/res
+com.pme.erp.app-jetified-core-ktx-1.15.0-31 /home/nicksonkipkogei/.gradle/caches/transforms-3/e391d0b0f57f9408a73f242062c62eff/transformed/jetified-core-ktx-1.15.0/res
+com.pme.erp.app-lifecycle-livedata-core-2.7.0-32 /home/nicksonkipkogei/.gradle/caches/transforms-3/e674307fdfb605213a87582d951a55ba/transformed/lifecycle-livedata-core-2.7.0/res
+com.pme.erp.app-jetified-activity-1.9.3-33 /home/nicksonkipkogei/.gradle/caches/transforms-3/f4f7b9ba6470cf0837326d404ecfeabc/transformed/jetified-activity-1.9.3/res
+com.pme.erp.app-jetified-activity-ktx-1.9.3-34 /home/nicksonkipkogei/.gradle/caches/transforms-3/f5c596a8ed992e617049e49b1d348104/transformed/jetified-activity-ktx-1.9.3/res
+com.pme.erp.app-jetified-lifecycle-runtime-ktx-2.7.0-35 /home/nicksonkipkogei/.gradle/caches/transforms-3/f640422646ab9310c190afe5cbdec8d2/transformed/jetified-lifecycle-runtime-ktx-2.7.0/res
+com.pme.erp.app-jetified-core-splashscreen-1.0.1-36 /home/nicksonkipkogei/.gradle/caches/transforms-3/fbb0ab40f04cedd6e98f7f5f3a5dc222/transformed/jetified-core-splashscreen-1.0.1/res
+com.pme.erp.app-jetified-tracing-1.2.0-37 /home/nicksonkipkogei/.gradle/caches/transforms-3/ff7b687dff20cf37993e34fa9e2eb02f/transformed/jetified-tracing-1.2.0/res
+com.pme.erp.app-resValues-38 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/build/generated/res/resValues/debug
+com.pme.erp.app-mergeDebugResources-39 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.pme.erp.app-mergeDebugResources-40 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.pme.erp.app-debug-41 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.pme.erp.app-debug-42 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/debug/res
+com.pme.erp.app-main-43 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/res
+com.pme.erp.app-debug-44 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-45 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/android/capacitor/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-46 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/app/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-47 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-48 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-49 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/device/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-50 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/dialog/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-51 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/geolocation/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-52 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/preferences/android/build/intermediates/packaged_res/debug/packageDebugResources
+com.pme.erp.app-debug-53 /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/splash-screen/android/build/intermediates/packaged_res/debug/packageDebugResources
