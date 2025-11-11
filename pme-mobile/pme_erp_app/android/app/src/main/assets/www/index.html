@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+  <div id="login-form">
+    <h1>Login</h1>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="login-button">Login</button>
+    <p id="error-message" style="color: red; display: none;"></p>
+  </div>
+
+  <script type="module">
+    import { login } from './js/api.js';
+    import { saveToken } from './js/storage.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const loginButton = document.getElementById('login-button');
+      const emailInput = document.getElementById('email');
+      const passwordInput = document.getElementById('password');
+      const errorMessage = document.getElementById('error-message');
+
+      if (!loginButton || !emailInput || !passwordInput || !errorMessage) {
+        console.error('One or more required UI elements are missing from the page.');
+        return;
+      }
+
+      loginButton.addEventListener('click', async (event) => {
+        event.preventDefault();
+
+        const email = emailInput.value;
+        const password = passwordInput.value;
+
+        errorMessage.textContent = '';
+        errorMessage.style.display = 'none';
+
+        if (!email || !password) {
+          errorMessage.textContent = 'Please enter both email and password.';
+          errorMessage.style.display = 'block';
+          return;
+        }
+
+        loginButton.disabled = true;
+        loginButton.textContent = 'Logging in...';
+
+        try {
+          const token = await login(email, password);
+          await saveToken(token);
+          window.location.href = 'home.html';
+        } catch (error) {
+          errorMessage.textContent = error.message;
+          errorMessage.style.display = 'block';
+        } finally {
+          loginButton.disabled = false;
+          loginButton.textContent = 'Login';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

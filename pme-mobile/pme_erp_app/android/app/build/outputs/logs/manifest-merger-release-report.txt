@@ -1,0 +1,515 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:52:9-60:20
+	android:grantUriPermissions
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:56:13-47
+	android:authorities
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:54:13-64
+	android:exported
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:53:13-62
+manifest
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:2:1-62:12
+MERGED from [androidx.databinding:viewbinding:8.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/7c274d56373b2620aa2cbdf0b8f019b2/transformed/jetified-viewbinding-8.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.12.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [:capacitor-app] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-21:12
+MERGED from [:capacitor-device] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-dialog] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/dialog/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-geolocation] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/geolocation/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-preferences] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/preferences/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-splash-screen] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-android] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-cordova-android-plugins] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bf28b6c8fefe281c0e2ec5848d15e913/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df2f96cd8526a9ca9f4274b5ca9aad03/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3f7692b1073905e810bbe09531d17be6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.ionic.libs:iongeolocation-android:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/a621a9ac6f4f308cd819fb2fe466a264/transformed/jetified-iongeolocation-android-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/11a41a8e1766c1178775c581da05a76c/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/435dfe0f927e002ddce0cb0295113ab4/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/1724b831c1c09210b9c06b4f97ec8f63/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/b24262d29054a553253ce4697f91ed6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/83098d22450feae20818ee1f85a89a75/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/6d72f4a5c9b24f2139b11372a5746692/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f4f7b9ba6470cf0837326d404ecfeabc/transformed/jetified-activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f5c596a8ed992e617049e49b1d348104/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14830a7dcbae3026eaba95e0413ba8a2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/23147382353d9e78e55afbc65bb6f14d/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/5da969a9b3f1c75256610c2c731d11c4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e674307fdfb605213a87582d951a55ba/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1e6bda37ac60dd6610ddf913e43aec6/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/98e590c14be1c50285edd4c7c15ce0c3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb6699e76f644237572f88daa7f83fe0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/aa8fa99bb6ea350ec80ecc051ffe165e/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.8.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/416d9e7c20a0464d3193b09b315dd5fc/transformed/fragment-1.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/40fe95b4840343e06892b9c0c0573e24/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9b22622a3d1b2c96a883ef3d2756cdd6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d3d8f19fa5c46e5f6b2d09e3dfad34e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.12.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/33a61abf22db00ccb694f81e7763948d/transformed/webkit-1.12.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/cef7bd7f224f62fc76282d790b7b3858/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14e418cf62bb96b27b401437ffa67d51/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e391d0b0f57f9408a73f242062c62eff/transformed/jetified-core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1c1591faba6ead64955fc707adae1ff/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/da322a691fd61b62c4c2296055c2766f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/2e9e28ccdc89a75578fecc9016e7c93d/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/fd1a0fae3a95922cb27276d30be2badf/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb967143300df7baeca0dae2362c5aec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f640422646ab9310c190afe5cbdec8d2/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fbb0ab40f04cedd6e98f7f5f3a5dc222/transformed/jetified-core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d46182e5cefefd68364617b2f2c8757/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df533e7b8bf2c281d0bd1bb11d3ea518/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/nicksonkipkogei/.gradle/caches/transforms-3/9388394a64814b4879c0a687b575203e/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/95206746303a3fae8ff2ed9128c5b8dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ff7b687dff20cf37993e34fa9e2eb02f/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ce9c0a78f0e80861deac0a6c2c14f0f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fa50ccfa11a854c6ff11acce7d0d77ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/dd0de0845d40f29cf4592d449a594acb/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f8fc4ef18d7f2017bd77850c8d5679b9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/988cf8ec9789b3685e754ad5c9b0e906/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ed5ddd0a86f4597dc67f84fa895305a1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.apache.cordova:framework:10.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/00589d302042007383788d62e7bf293d/transformed/jetified-framework-10.1.1/AndroidManifest.xml:20:1-27:12
+	package
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:8:5-107
+	android:maxSdkVersion
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:8:78-104
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:9:5-108
+	android:maxSdkVersion
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:9:79-105
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:11:22-72
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:13:22-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:17:22-76
+application
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:19:5-61:19
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:19:5-61:19
+MERGED from [com.google.android.material:material:1.12.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-19:19
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-19:19
+MERGED from [:capacitor-cordova-android-plugins] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-9:19
+MERGED from [:capacitor-cordova-android-plugins] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-9:19
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/11a41a8e1766c1178775c581da05a76c/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/11a41a8e1766c1178775c581da05a76c/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/aa8fa99bb6ea350ec80ecc051ffe165e/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/aa8fa99bb6ea350ec80ecc051ffe165e/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fa50ccfa11a854c6ff11acce7d0d77ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fa50ccfa11a854c6ff11acce7d0d77ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:26:9-40
+	android:networkSecurityConfig
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:20:9-69
+activity#com.pme.erp.MainActivity
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:28:9-50:20
+	android:screenOrientation
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:31:13-56
+	android:launchMode
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:33:13-44
+	android:windowSoftInputMode
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:35:13-55
+	android:exported
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:30:13-36
+	android:configChanges
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:32:13-140
+	android:theme
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:34:13-62
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:29:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:40:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth+data:scheme:pme
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:44:13-49:29
+action#android.intent.action.VIEW
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:46:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:47:17-78
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:47:27-75
+data
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:48:17-66
+	android:host
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:48:44-63
+	android:scheme
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:48:23-43
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:57:13-59:54
+	android:resource
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:59:17-51
+	android:name
+		ADDED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml:58:17-67
+uses-sdk
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/7c274d56373b2620aa2cbdf0b8f019b2/transformed/jetified-viewbinding-8.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/7c274d56373b2620aa2cbdf0b8f019b2/transformed/jetified-viewbinding-8.3.0/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9d3279397ec68e165d15122d72e27418/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/a7a1b087492536b99a7c0a2e1580c7b3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-app] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-app] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-device] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-device] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-dialog] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/dialog/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-dialog] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/dialog/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-geolocation] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/geolocation/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-geolocation] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/geolocation/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-preferences] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/preferences/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-preferences] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/preferences/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-splash-screen] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-splash-screen] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/splash-screen/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-cordova-android-plugins] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:6:5-44
+MERGED from [:capacitor-cordova-android-plugins] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bf28b6c8fefe281c0e2ec5848d15e913/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bf28b6c8fefe281c0e2ec5848d15e913/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df2f96cd8526a9ca9f4274b5ca9aad03/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df2f96cd8526a9ca9f4274b5ca9aad03/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3f7692b1073905e810bbe09531d17be6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3f7692b1073905e810bbe09531d17be6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.ionic.libs:iongeolocation-android:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/a621a9ac6f4f308cd819fb2fe466a264/transformed/jetified-iongeolocation-android-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.ionic.libs:iongeolocation-android:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/a621a9ac6f4f308cd819fb2fe466a264/transformed/jetified-iongeolocation-android-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/11a41a8e1766c1178775c581da05a76c/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/11a41a8e1766c1178775c581da05a76c/transformed/jetified-play-services-location-21.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/435dfe0f927e002ddce0cb0295113ab4/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/435dfe0f927e002ddce0cb0295113ab4/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/1724b831c1c09210b9c06b4f97ec8f63/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/1724b831c1c09210b9c06b4f97ec8f63/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/b24262d29054a553253ce4697f91ed6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/b24262d29054a553253ce4697f91ed6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/83098d22450feae20818ee1f85a89a75/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/83098d22450feae20818ee1f85a89a75/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/6d72f4a5c9b24f2139b11372a5746692/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/6d72f4a5c9b24f2139b11372a5746692/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f4f7b9ba6470cf0837326d404ecfeabc/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f4f7b9ba6470cf0837326d404ecfeabc/transformed/jetified-activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f5c596a8ed992e617049e49b1d348104/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/nicksonkipkogei/.gradle/caches/transforms-3/f5c596a8ed992e617049e49b1d348104/transformed/jetified-activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14830a7dcbae3026eaba95e0413ba8a2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14830a7dcbae3026eaba95e0413ba8a2/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/23147382353d9e78e55afbc65bb6f14d/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/23147382353d9e78e55afbc65bb6f14d/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/5da969a9b3f1c75256610c2c731d11c4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/5da969a9b3f1c75256610c2c731d11c4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e674307fdfb605213a87582d951a55ba/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e674307fdfb605213a87582d951a55ba/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1e6bda37ac60dd6610ddf913e43aec6/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1e6bda37ac60dd6610ddf913e43aec6/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/98e590c14be1c50285edd4c7c15ce0c3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/98e590c14be1c50285edd4c7c15ce0c3/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb6699e76f644237572f88daa7f83fe0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb6699e76f644237572f88daa7f83fe0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/aa8fa99bb6ea350ec80ecc051ffe165e/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/aa8fa99bb6ea350ec80ecc051ffe165e/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.8.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/416d9e7c20a0464d3193b09b315dd5fc/transformed/fragment-1.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.4] /home/nicksonkipkogei/.gradle/caches/transforms-3/416d9e7c20a0464d3193b09b315dd5fc/transformed/fragment-1.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/40fe95b4840343e06892b9c0c0573e24/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/40fe95b4840343e06892b9c0c0573e24/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9b22622a3d1b2c96a883ef3d2756cdd6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9b22622a3d1b2c96a883ef3d2756cdd6/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d3d8f19fa5c46e5f6b2d09e3dfad34e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d3d8f19fa5c46e5f6b2d09e3dfad34e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.12.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/33a61abf22db00ccb694f81e7763948d/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/33a61abf22db00ccb694f81e7763948d/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/cef7bd7f224f62fc76282d790b7b3858/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/cef7bd7f224f62fc76282d790b7b3858/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14e418cf62bb96b27b401437ffa67d51/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/14e418cf62bb96b27b401437ffa67d51/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e391d0b0f57f9408a73f242062c62eff/transformed/jetified-core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/e391d0b0f57f9408a73f242062c62eff/transformed/jetified-core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1c1591faba6ead64955fc707adae1ff/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/d1c1591faba6ead64955fc707adae1ff/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/da322a691fd61b62c4c2296055c2766f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/da322a691fd61b62c4c2296055c2766f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/2e9e28ccdc89a75578fecc9016e7c93d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/2e9e28ccdc89a75578fecc9016e7c93d/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/fd1a0fae3a95922cb27276d30be2badf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/fd1a0fae3a95922cb27276d30be2badf/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb967143300df7baeca0dae2362c5aec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb967143300df7baeca0dae2362c5aec/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f640422646ab9310c190afe5cbdec8d2/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f640422646ab9310c190afe5cbdec8d2/transformed/jetified-lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fbb0ab40f04cedd6e98f7f5f3a5dc222/transformed/jetified-core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fbb0ab40f04cedd6e98f7f5f3a5dc222/transformed/jetified-core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d46182e5cefefd68364617b2f2c8757/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/3d46182e5cefefd68364617b2f2c8757/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df533e7b8bf2c281d0bd1bb11d3ea518/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/df533e7b8bf2c281d0bd1bb11d3ea518/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/nicksonkipkogei/.gradle/caches/transforms-3/9388394a64814b4879c0a687b575203e/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/nicksonkipkogei/.gradle/caches/transforms-3/9388394a64814b4879c0a687b575203e/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/95206746303a3fae8ff2ed9128c5b8dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/95206746303a3fae8ff2ed9128c5b8dc/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ff7b687dff20cf37993e34fa9e2eb02f/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ff7b687dff20cf37993e34fa9e2eb02f/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ce9c0a78f0e80861deac0a6c2c14f0f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ce9c0a78f0e80861deac0a6c2c14f0f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fa50ccfa11a854c6ff11acce7d0d77ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/fa50ccfa11a854c6ff11acce7d0d77ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/dd0de0845d40f29cf4592d449a594acb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/dd0de0845d40f29cf4592d449a594acb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f8fc4ef18d7f2017bd77850c8d5679b9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/f8fc4ef18d7f2017bd77850c8d5679b9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/988cf8ec9789b3685e754ad5c9b0e906/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/988cf8ec9789b3685e754ad5c9b0e906/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ed5ddd0a86f4597dc67f84fa895305a1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/ed5ddd0a86f4597dc67f84fa895305a1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/00589d302042007383788d62e7bf293d/transformed/jetified-framework-10.1.1/AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/00589d302042007383788d62e7bf293d/transformed/jetified-framework-10.1.1/AndroidManifest.xml:25:5-44
+	android:targetSdkVersion
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/android/app/src/main/AndroidManifest.xml
+queries
+ADDED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-11:15
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-11:15
+MERGED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-11:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-10:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-73
+	android:name
+		ADDED from [:capacitor-camera] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/camera/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:21-70
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:21-87
+activity#com.capacitorjs.plugins.browser.BrowserControllerActivity
+ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:9-18:75
+	android:launchMode
+		ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:13-44
+	android:exported
+		ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:13-72
+	android:name
+		ADDED from [:capacitor-browser] /home/nicksonkipkogei/PME android/pme-mobile/pme_erp_app/node_modules/@capacitor/browser/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:13-85
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/bb7db3d298f0b42f666037ec234bdbed/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/1fef56d61c45b6a22a11cad4a01396ed/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/9ea0e63bd7d947e2de1109c7f2f186c7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/777f0b052699bd37b94ba5dfdb03d482/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/8b58da27862e5b240333c2db4c510762/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.pme.erp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.pme.erp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /home/nicksonkipkogei/.gradle/caches/transforms-3/945192bb6785927a4860051dd431ef5a/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/nicksonkipkogei/.gradle/caches/transforms-3/d41171649082e2004da6b257db220896/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

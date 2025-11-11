@@ -1,0 +1,32 @@
+{
+  "appId": "com.pme.erp",
+  "appName": "PME ERP",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "server": {
+    "url": "https://ke.erpproject.online",
+    "cleartext": false,
+    "androidScheme": "https",
+    "allowNavigation": [
+      "ke.erpproject.online",
+      "ke.erp.project.online"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": false,
+      "backgroundColor": "#ffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "splashFullScreen": true,
+      "splashImmersive": false
+    }
+  }
+}

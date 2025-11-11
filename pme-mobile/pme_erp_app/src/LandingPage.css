@@ -1,0 +1,86 @@
+.landing-content {
+  --background: linear-gradient(to bottom, #7B9CA8, #4A6B7A);
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  color: #00AFAE;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.success-icon {
+  font-size: 64px;
+  color: #00AFAE;
+}
+
+.success-message {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+}
+
+.coordinates-container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+.coordinates-text {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.continue-button,
+.retry-button {
+  margin-top: 32px;
+  --background: #00AFAE;
+  --background-hover: #00948c;
+  --background-activated: #00948c;
+  --border-radius: 8px;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: none;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 400px;
+}

@@ -1,7 +1,14 @@
 {
   "dependencies": {
+<<<<<<< HEAD
+    "@capacitor/geolocation": "^7.1.5",
+    "@capacitor/preferences": "^7.0.2",
+    "@expo/vector-icons": "^15.0.3",
+    "expo-linear-gradient": "^15.0.7"
+=======
     "@capacitor/android": "^7.4.4",
     "@capacitor/browser": "^7.0.2",
     "@capacitor/preferences": "^7.0.2"
+>>>>>>> origin/attendance
   }
 }

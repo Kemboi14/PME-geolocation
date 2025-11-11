@@ -1,0 +1,19 @@
+// This patch will update the Java version for the capacitor-camera plugin
+project.afterEvaluate {
+    if (project.name == 'capacitor-camera') {
+        android {
+            compileOptions {
+                sourceCompatibility JavaVersion.VERSION_17
+                targetCompatibility JavaVersion.VERSION_17
+            }
+        }
+        // Update Kotlin JVM target if present
+        if (project.plugins.hasPlugin('org.jetbrains.kotlin.android')) {
+            tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+                kotlinOptions {
+                    jvmTarget = '17'
+                }
+            }
+        }
+    }
+}

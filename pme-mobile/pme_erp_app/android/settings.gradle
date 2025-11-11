@@ -1,0 +1,56 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+    }
+}
+
+dependencyResolutionManagement {
+    // Allow project-level repos from plugins if needed
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "pme_erp_app"
+
+// App modules
+include(":app")
+
+// Capacitor core
+include(":capacitor-android")
+project(":capacitor-android").projectDir = new File("../node_modules/@capacitor/android/capacitor")
+
+// Capacitor plugins
+include(":capacitor-cordova-android-plugins")
+project(":capacitor-cordova-android-plugins").projectDir = new File("./capacitor-cordova-android-plugins/")
+
+include(":capacitor-app")
+project(":capacitor-app").projectDir = new File("../node_modules/@capacitor/app/android")
+
+include(":capacitor-browser")
+project(":capacitor-browser").projectDir = new File("../node_modules/@capacitor/browser/android")
+
+include(":capacitor-camera")
+project(":capacitor-camera").projectDir = new File("../node_modules/@capacitor/camera/android")
+
+include(":capacitor-dialog")
+project(":capacitor-dialog").projectDir = new File("../node_modules/@capacitor/dialog/android")
+
+include(":capacitor-preferences")
+project(":capacitor-preferences").projectDir = new File("../node_modules/@capacitor/preferences/android")
+
+include(":capacitor-splash-screen")
+project(":capacitor-splash-screen").projectDir = new File("../node_modules/@capacitor/splash-screen/android")
+
+include(":capacitor-device")
+project(":capacitor-device").projectDir = new File("../node_modules/@capacitor/device/android")
+
+include(":capacitor-geolocation")
+project(":capacitor-geolocation").projectDir = new File("../node_modules/@capacitor/geolocation/android")
