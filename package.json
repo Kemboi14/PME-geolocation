@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/browser": "^7.0.2",
+    "@capacitor/preferences": "^7.0.2"
+  }
+}
