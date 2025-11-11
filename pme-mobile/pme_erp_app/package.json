@@ -1,0 +1,51 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "type": "module",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/app": "^7.1.0",
+    "@capacitor/browser": "^7.0.2",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "^7.4.4",
+    "@capacitor/device": "^7.0.2",
+    "@capacitor/dialog": "^7.0.2",
+    "@capacitor/geolocation": "^7.1.5",
+    "@capacitor/preferences": "^7.0.2",
+    "@capacitor/splash-screen": "^7.0.3",
+    "@ionic/react": "^8.7.9",
+    "@ionic/react-router": "^8.7.9",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/react-router-dom": "^5.3.3",
+    "ionicons": "^8.0.13",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.27.1",
+    "@babel/preset-react": "^7.28.5",
+    "@capacitor/cli": "^7.4.4",
+    "@types/node": "^24.10.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "author": "",
+  "license": "ISC"
+}
